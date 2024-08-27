@@ -1,6 +1,26 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    padding-top: 56px; /* Adjust for fixed navbar */
+    display: flex;
+    flex-direction: column;
 }
+
+footer .container {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
 footer {
-    margin-top: 20px;
+    background-color: #212a31; 
+    height: 150px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
+
+footer p {
+    margin: 0; 
+}
+
