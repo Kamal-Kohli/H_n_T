@@ -16,6 +16,7 @@
     <title>H&T Top News</title>
 </head>
 <body class="custom-bg">
+    <!-- NavBar -->
     {% with request.resolver_match.url_name as url_name %}
         <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
@@ -73,8 +74,18 @@
             </div>
         </nav>
     {% endwith %}
+    
+    <!-- Cards.html -->
     <div class="content container">
         {% block content %}{% endblock %}
+    </div>
+
+    <!-- Floating icons -->
+    <div class="floating-icons">
+        <a class="btn-lg" href="https://www.linkedin.com/in/kamal-kohli/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Kamal-Kohli/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/vege.nomad/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/kamal.vege.traveler" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
 
     {% include 'home/footer.html' %}
