@@ -59,14 +59,14 @@
                         <!-- Registration/Login/Logout -->
                         {% if request.user.is_authenticated %}
                         <li class="nav-item">
-                            <a class="nav-link {% if url_name == 'accounts_logout' %}active{% endif %}" href="">Logout</a>
+                            <a class="nav-link {% if url_name == 'accounts_logout' %}active{% endif %}" href="/accounts/logout/">Logout</a>
                         </li>
                         {% else %}
                         <li class="nav-item">
-                            <a class="nav-link {% if url_name == 'accounts_login' %}active{% endif %}" href="">Login</a>
+                            <a class="nav-link {% if url_name == 'accounts_login' %}active{% endif %}" href="/accounts/login/">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if url_name == 'accounts_signup' %}active{% endif %}" href="">Register</a>
+                            <a class="nav-link {% if url_name == 'accounts_signup' %}active{% endif %}" href="/accounts/signup/">Register</a>
                         </li>
                         {% endif %}
                     </ul>
