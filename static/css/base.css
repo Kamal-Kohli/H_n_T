@@ -7,6 +7,14 @@ body {
     flex-direction: column;
 }
 
+.custom-bg {
+    background-image: url('../images/bgimg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
 footer .container {
     width: 100%;
     margin-bottom: 2rem;
