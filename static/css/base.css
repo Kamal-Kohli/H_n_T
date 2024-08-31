@@ -15,6 +15,45 @@ body {
     height: 100vh;
 }
 
+h1 {
+    padding-top: 7rem;
+    color: #124e66;
+}
+
+
+/* NavBar */
+.navbar {
+    padding: 1rem;
+    background: #212a31;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background: #124e66;
+}
+
+.auth-links {
+    float: right;
+}
+
+.active {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 500;
+}
+
 /* Card styling */
 .card {
     border: none;
