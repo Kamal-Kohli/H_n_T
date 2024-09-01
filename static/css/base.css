@@ -17,7 +17,7 @@ body {
 
 h1 {
     padding-top: 7rem;
-    color: #124e66;
+    color: solid #124e66;
 }
 
 
@@ -182,6 +182,12 @@ nav ul li a {
 
 .pb-5 {
     padding-bottom: 3rem !important;
+}
+
+.text-overlay {
+    border: 5px solid #212a31;
+    border-radius: 0;
+    margin-left: 5px;
 }
 
 
