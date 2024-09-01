@@ -15,6 +15,9 @@
     --bs-floating-icons-bg-color: #124e66;
     --bs-floating-icons-hover-bg-color: #212a31;
     --bs-footer-bg-color: #212a31;
+    --h1-font-size: 2rem; 
+    --h1-margin-bottom: 1.25rem; 
+    --red-error: #c62828;
 }
 
 /* Apply Bootstrap variables and utility classes */
@@ -38,6 +41,8 @@ body {
 h1 {
     padding-top: 2rem;
     color: var(--bs-custom-bg-color);
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--h1-margin-bottom);
 }
 
 .head-title {
@@ -180,6 +185,11 @@ nav ul li a {
     color: #fff;
 }
 
+.btn-signup1:hover {
+    background-color: var(--red-error);
+    color: #fff;
+}
+
 /* Styling for the form sections */
 .logs-pages {
     padding: 3.75rem 0;
@@ -210,6 +220,10 @@ nav ul li a {
     border: 5px solid var(--bs-text-overlay-border-color);
     border-radius: 0;
     margin-left: 0.3125rem;
+}
+
+.logout-title {
+    color: var(--bs-custom-bg-color);
 }
 
 /* Input field styling */
