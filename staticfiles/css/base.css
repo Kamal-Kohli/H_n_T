@@ -199,6 +199,18 @@ nav ul li a {
     margin-left: 5px;
 }
 
+/* Input field styling */
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/*
 
 /* Pagination */
 .pagination {
