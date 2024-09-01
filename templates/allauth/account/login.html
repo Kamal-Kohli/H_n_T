@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% load allauth i18n %}
+{% load i18n %}
 {% load account socialaccount %}
 
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
@@ -28,14 +28,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-md-8 mt-3 offset-md-2 pb-5">
-                    <form class="login" method="POST" action="{% url 'account_login' %}">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        {% if redirect_field_value %}
-                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                        {% endif %}
-                        <button class="btn btn-signup right" type="submit">{% trans "Sign In" %}</button>
-                    </form>
+                    {% include "account/login_form.html" %}
                 </div>
             </div>
         </div>
