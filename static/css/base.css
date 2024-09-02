@@ -2,22 +2,22 @@
 
 :root {
     --bs-bg-image: url('../images/bgimg.webp');
-    --bs-custom-bg-color: #124e66;
-    --bs-navbar-bg-color: #212a31;
-    --bs-card-bg-color: #fff;
-    --bs-card-border-color: #ddd;
-    --bs-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --bs-btn-bg-color: #124e66;
-    --bs-btn-hover-bg-color: #212a31;
-    --bs-text-overlay-border-color: #212a31;
-    --bs-pagination-bg-color: #124e66;
-    --bs-pagination-hover-bg-color: #212a31;
-    --bs-floating-icons-bg-color: #124e66;
-    --bs-floating-icons-hover-bg-color: #212a31;
-    --bs-footer-bg-color: #212a31;
+    --bs-custom-bg-color: #943d24;
+    --bs-navbar-bg-color: #282512;
+    --bs-card-bg-color: #fffbf0;
+    --bs-card-border-color: #fffbf0;
+    --bs-card-shadow: 0 4px 6px #2d2d2d;
+    --bs-btn-bg-color: #943d24;
+    --bs-btn-hover-bg-color: #2d2d2d;
+    --bs-text-overlay-border-color: #282512;
+    --bs-pagination-bg-color: #943d24;
+    --bs-pagination-hover-bg-color: #282512;
+    --bs-floating-icons-bg-color: #943d24;
+    --bs-floating-icons-hover-bg-color: #2d2d2d;
+    --bs-footer-bg-color: #282512;
     --h1-font-size: 2rem; 
     --h1-margin-bottom: 1.25rem; 
-    --red-error: #c62828;
+    --red-error: #943d24;
 }
 
 /* Apply Bootstrap variables and utility classes */
@@ -196,7 +196,7 @@ nav ul li a {
 }
 
 .btn-signup1:hover {
-    background-color: var(--red-error);
+    background-color: #c62828;
     color: #fff;
 }
 
@@ -296,7 +296,7 @@ form input[type="password"] {
 .floating-icons {
     position: fixed;
     top: 50%;
-    right: 1rem;
+    right: 0.3rem;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
