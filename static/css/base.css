@@ -232,6 +232,22 @@ nav ul li a {
     color: var(--bs-custom-bg-color);
 }
 
+/* Text danger animate */
+.text-danger {
+    font-weight: bold;
+    color: #c62828; 
+}
+.animated-warning {
+    animation: blinkWarning 1s infinite; 
+}
+
+/* Keyframes for the blinking effect */
+@keyframes blinkWarning {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 /* Input field styling */
 form input[type="text"], 
 form input[type="email"], 
