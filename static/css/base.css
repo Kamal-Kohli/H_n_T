@@ -192,7 +192,7 @@ nav ul li a {
 
 /* Styling for the form sections */
 .logs-pages {
-    padding: 3.75rem 0;
+    padding: 3.75rem 1rem;
     background-color: var(--bs-card-bg-color);
 }
 
@@ -216,10 +216,16 @@ nav ul li a {
     font-size: 1rem;
 }
 
+/* Register form Border */
 .text-overlay {
     border: 5px solid var(--bs-text-overlay-border-color);
     border-radius: 0;
-    margin-left: 0.3125rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .logout-title {
@@ -306,6 +312,47 @@ footer {
 
 footer p {
     margin: 0; 
+}
+
+/* Media Screen of login form */
+@media (max-width: 576px) {
+    .text-overlay {
+        padding: 10px;
+        max-width: 90%; 
+    }
+    .logs-pages {
+        padding: 2rem 0.5rem; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .text-overlay {
+        padding: 15px;
+        max-width: 95%; 
+    }
+    .logs-pages {
+        padding: 3rem 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .text-overlay {
+        padding: 20px;
+        max-width: 90%; 
+    }
+    .logs-pages {
+        padding: 3.5rem 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-overlay {
+        padding: 25px;
+        max-width: 80%; 
+    }
+    .logs-pages {
+        padding: 3.75rem 2rem;
+    }
 }
 
 /* Media Screen */
