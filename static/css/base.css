@@ -45,10 +45,20 @@ h1 {
     margin-bottom: var(--h1-margin-bottom);
 }
 
+.heading {
+    background-color: var(--bs-card-border-color);
+    padding: 20px;
+}
+
 .head-title {
     padding-top: 7rem;
 }
 
+.line {
+    margin: auto;
+    padding: 0.5rem;
+    width: 50%;
+}
 /* Custom HR style */
 .custom-hr {
     border: none;
