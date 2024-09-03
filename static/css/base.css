@@ -63,7 +63,7 @@ h1 {
 .custom-hr {
     border: none;
     height: 4px;
-    background-color: var(--bs-custom-bg-color); 
+    background-color: var(--bs-footer-bg-color); 
     width: 100%; 
     margin: 20px 0; 
 }
@@ -422,3 +422,4 @@ footer p {
       max-width: 1320px;
     }
 }
+
